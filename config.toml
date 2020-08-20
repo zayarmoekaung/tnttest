@@ -7,12 +7,10 @@
 
 
 
-# For a description of these parameters, please visit the theme wiki.
-# https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
-baseurl                 = "/"
+
 DefaultContentLanguage  = "en"
 title = "Kyaw T&T "
-theme                   = "travel"
+theme                   = "travel-tnt"
 paginate                = 3
 disqusShortname         = ""
 googleAnalytics         = ""
