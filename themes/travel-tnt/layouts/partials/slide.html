@@ -85,7 +85,7 @@ body {font-family: Verdana, sans-serif;}
 
 {{ $albumUrl := print "/static/img/travelpics/"  }}
 {{ range readDir $albumUrl }}
-{{ $imgURL := print "img/travelpics/" .Name | absURL }}
+{{ $imgURL := print "/img/travelpics/" .Name | absURL }}
   
     <div class="mySlides fade">
 
