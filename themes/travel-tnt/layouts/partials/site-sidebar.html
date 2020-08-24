@@ -21,25 +21,9 @@
     </section>
   {{ end }}
 
-  {{ if .Site.Params.sidebar.categories }}
-    {{ if ne ($.Scratch.Get "showCategories") false }}
-      <section id="categories">
-        <header>
-          <h1><a href="{{ "categories" | relLangURL }}">{{ i18n "categories" }}</a></h1>
-        </header>
-        <ul>
-          {{ $.Scratch.Set "categories" (cond .Site.Params.sidebar.categoriesByCount .Site.Taxonomies.categories.ByCount .Site.Taxonomies.categories.Alphabetical) }}
-          {{ range $key, $value := $.Scratch.Get "categories" }}
-          <li>
-              <a href="{{ printf "%s/%s" "categories" $value.Name | urlize | relLangURL }}/">{{ $value.Name }}<span class="count">{{ $value.Count }}</span></a>
-          {{ end }}
-          </li>
-        </ul>
-      </section>
-    {{ end }}
-  {{ end }}
+  
 
-  {{ if .Site.Params.sidebar.about }}
+  
     <section id="mini-bio">
       <header>
         <h1>{{ i18n "about" }}</h1>
@@ -49,6 +33,6 @@
         <a href="{{ "about" | relLangURL }}" class="button">{{ i18n "learn_more" }}</a>
       </footer>
     </section>
-  {{ end }}
- 
+  
+
 </section>
