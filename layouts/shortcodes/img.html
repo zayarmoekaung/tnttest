@@ -1,0 +1,59 @@
+<style type="text/css">
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 2px;
+  border: 2px;
+  padding: 5px;
+  object-fit: cover;
+  width: 200px;
+  height: 150px;
+  
+  
+  cursor: pointer;
+ 
+border-radius: 6px;
+}
+</style>
+
+<img id="igg" src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" class="center" onclick="imgresize(this)" >
+
+<script type="text/javascript">
+	var isit = true;
+	var n;
+
+
+
+function imgresize(x){
+		if (isit){	
+
+		n=x;	
+		n.style.width="50%";
+		n.style.height="auto";
+		n.style.position="absolute";
+		n.style.display="block"
+		n.style.zIndex = "209";
+		isit = false;
+
+		}else{
+		
+		x.style.width="200px";
+		x.style.height="150px";
+		x.style.position="relative";
+		x.style.zIndex = "80";
+		isit=true;
+	}
+}
+	
+
+			
+		
+		
+
+	
+	
+		
+</script>

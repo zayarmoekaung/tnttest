@@ -9,14 +9,13 @@
   other = "See More"
 [learn_more]
   other = "Learn More"
-[attribution]
-  other = "Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='{{ .Site.Hugo.Version }}' target='_blank' rel='noopener'>Hugo</a>"
+
 
 # Sections
 [about]
   other = "About"
 [contact]
-  other = "Contact"
+  other = "Contact Me For Appointment"
 [contact_replies]
   one = "Replies typically within 1 hour."
   other = "Replies typically within {{ .Count }} hours."
@@ -32,6 +31,8 @@
   other = "Next Page"
 [previous_page]
   other = "Previous Page"
+[available]
+  other = "I am available"    
 
 # Post
 [reading_time]
