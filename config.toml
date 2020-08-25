@@ -1,13 +1,4 @@
-
-
-
-
-
-
-
-
-
-
+baseurl                 = "https://www.kyawtnt.com/"
 DefaultContentLanguage  = "en"
 title = "Kyaw T&T "
 theme                   = "travel-tnt"

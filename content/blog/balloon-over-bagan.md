@@ -8,7 +8,7 @@ tags  = ["Bagan"]
   alt  = "Travel photo"
   stretch = "stretchH"
 +++
-
+<!--more-->
 {{< pimg src ="/img/balloon1.jpg">}}
 {{< pimg src ="/img/balloon2.jpg">}}
 {{< pimg src ="/img/balloon3.jpg">}}

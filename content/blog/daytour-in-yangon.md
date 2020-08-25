@@ -8,6 +8,7 @@ tags  = ["Yangon"]
   alt  = "Travel photo"
   stretch = "stretchH"
 +++
+<!--more-->
 {{< pimg src="/img/ygn2.jpg">}}
 {{< pimg src="/img/ygn3.jpg">}}
 {{< pimg src="/img/ygn4.jpg">}}
