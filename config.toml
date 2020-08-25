@@ -30,7 +30,7 @@ disableLanguages        = []
   highlightjs           = true
   highlightjsTheme      = ""
   highlightjsLang       = []
-  viewMorePostsLink     = "/trips/"
+  viewMorePostsLink     = "/blog/"
   readingTime           = true
   imageStretch          = ""
   removeBlur            = false
@@ -97,8 +97,8 @@ disableLanguages        = []
 
   [[menu.main]]
     name              = "Trips"
-    identifier        = "trips"
-    url               = "/trips/"
+    identifier        = "blog"
+    url               = "/blog/"
     pre               = "<i class='far fa-newspaper'></i>"
     weight            = 3
 
@@ -158,8 +158,8 @@ disableLanguages        = []
 
     [[Languages.de.menu.main]]
       name              = "Reisen"
-      identifier        = "trips"
-      url               = "/trips/"
+      identifier        = "blog"
+      url               = "/blog/"
       pre               = "<i class='far fa-newspaper'></i>"
       weight            = 3
 

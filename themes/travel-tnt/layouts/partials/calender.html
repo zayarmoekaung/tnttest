@@ -1,68 +1,11 @@
-<link href="{{ "calander/main.css" | relURL }}" rel="stylesheet" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+  .cal{
+    min-width: 100%;
+    min-height: 400px;
 
-  
-
-  #loading {
-    display: none;
-    position: absolute;
-    top: 10px;
-    right: 10px;
   }
-
-  #calendar {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
 </style>
 
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FYangon&amp;src=emF5YXJtb2VrYXVuZzBAZ21haWwuY29t&amp;color=%23039BE5&amp;showTitle=0" class="cal" frameborder="0" scrolling="no"></iframe>
 
-
-  <div id='calendar' style="position: relative;"></div>
-
-<script src="{{ "calander/main.js" | relURL }}"></script>
-
-<script>
-
-  document.addEventListener('DOMContentLoaded', function() {
-    var calendarEl = document.getElementById('calendar');
-
-    var calendar = new FullCalendar.Calendar(calendarEl, {
-
-      headerToolbar: {
-        left: 'prev,next today',
-        center: 'title',
-        right: 'dayGridMonth,listWeek'
-      },
-      
-      displayEventTime: false, // don't show the time column in list view
-
-      // THIS KEY WON'T WORK IN PRODUCTION!!!
-      // To make your own Google API key, follow the directions here:
-      // http://fullcalendar.io/docs/google_calendar/
-      googleCalendarApiKey: 'AIzaSyBcRgDaAiC2biSCVFspbR5wuTU9bp0POng',
-
-  
-      events: {googleCalendarId: 'zayarmoekaung0@gmail.com'},
-       eventAfterAllRender: function(view) {
-        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-          $('#calendar').fullCalendar('changeView', 'agendaDay');
-        } //IF MOBILE CHANGE VIEW TO AGENDA DAY
-      },
-      eventClick: function(arg) {
-        // opens events in a popup window
-        window.open(arg.event.url, 'google-calendar-event', 'width=700,height=600');
-
-        arg.jsEvent.preventDefault() // don't navigate in main tab
-      },
-     
-
-     
-    });
-
-    calendar.render();
-  });
-
-</script>
