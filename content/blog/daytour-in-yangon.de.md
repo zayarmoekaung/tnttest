@@ -7,8 +7,8 @@ tags  = ["Yangon"]
   alt  = "Travel photo"
   stretch = "stretchH"
 +++
-{{< img src="/img/ygn2.jpg">}}
-{{< img src="/img/ygn3.jpg">}}
-{{< img src="/img/ygn4.jpg">}}
-{{< img src="/img/ygn5.jpg">}}
+{{< pimg src="/img/ygn2.jpg">}}
+{{< pimg src="/img/ygn3.jpg">}}
+{{< pimg src="/img/ygn4.jpg">}}
+{{< pimg src="/img/ygn5.jpg">}}
 
