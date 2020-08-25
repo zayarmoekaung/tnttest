@@ -4,7 +4,7 @@ date = 2020-08-26T05:15:41+06:30
 description  = "Riding Balloon Over Bagan"
 tags  = ["Bagan"]
 [[images]]
-  src  = "img/balloon1.jpg"
+  src  = "/img/balloon1.jpg"
   alt  = "Travel photo"
   stretch = "stretchH"
 +++
