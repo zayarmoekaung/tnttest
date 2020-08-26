@@ -59,7 +59,7 @@ disableLanguages        = []
       alt                 = ""
 
   [params.sidebar]
-    about               = "I am a Tourist guide in Myanmar.i offer not only Tour guide service but also organize the whole trip n bcuz I have a Travel Company which is reliable n fair ."
+    about               = "I m one of the members of LGBTIQ in Myanmar. I do guide for Gay tourists all over the world to get to know about the LGBTIQ in Myanmar. Instead of I m gay"
     postAmount          = 5
     categories          = true
     categoriesByCount   = true
@@ -129,7 +129,7 @@ disableLanguages        = []
       width               = ""
       alt                 = ""
     [Languages.de.params.sidebar]
-    about               = "Ich bin ein Reiseführer in Myanmar. Ich biete nicht nur Reiseleitung an, sondern organisiere auch die gesamte Reise, weil ich eine Reisegesellschaft habe, die zuverlässig und fair ist."
+    about               = "Ich bin eines der Mitglieder von LGBTIQ in Myanmar. Ich führe schwule Touristen auf der ganzen Welt an, um mehr über den LGBTIQ in Myanmar zu erfahren. Anstatt ich bin schwul"
     postAmount          = 5
     categories          = true
     categoriesByCount   = true

@@ -1,7 +1,7 @@
 +++
 
 title = "Über mich"
-description = "Ich bin ein Reiseführer in Myanmar. Ich biete nicht nur Reiseleitung an, sondern organisiere auch die gesamte Reise, weil ich eine Reisegesellschaft habe, die zuverlässig und fair ist."
+description = "Ich bin eines der Mitglieder von LGBTIQ in Myanmar. Ich führe schwule Touristen auf der ganzen Welt an, um mehr über den LGBTIQ in Myanmar zu erfahren. Anstatt ich bin schwul"
 author = "Kyaw"
 date= 2020-08-24T09:13:33+06:30
 layout = "about"
