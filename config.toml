@@ -27,7 +27,7 @@ disableLanguages        = []
   removeBlur            = false
   socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
   hideEmptyStats        = false
-  images = ["/img/logo.jpg"]
+  images = ["/img/IMG-1abcaa994feb453f9123ada438ccc7e7-V.jpg"]
 
   [params.meta]
    description = " Kyaw Travel and Tour "
@@ -53,7 +53,7 @@ disableLanguages        = []
     alwaysOnHomepage      = false
 
     [params.intro.pic]
-      src                 = "img/logo.jpg"
+      src                 = ""
       shape               = "circle"
       width               = ""
       alt                 = ""
