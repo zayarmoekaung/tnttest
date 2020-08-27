@@ -1,7 +1,7 @@
 
 +++
 title = "About Me"
-description = "I m one of the members of LGBTIQ in Myanmar. I do guide for Gay tourists all over the world to get to know about the LGBTIQ in Myanmar. Instead of I m gay"
+description = "I am a friendly, funny, nice tour guide in Myanmar and I can accompany and travel with tourists anywhere in Myanmar. I join gays in the world because I'm gay."
 author = "Kyaw"
 date= 2020-08-24T09:13:33+06:30
 layout = "about"

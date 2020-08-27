@@ -1,5 +1,5 @@
 baseurl                 = "https://www.kyawtnt.com/"
-DefaultContentLanguage  = "en"
+DefaultContentLanguage  = "de"
 title = "Kyaw T&T "
 theme                   = "travel-tnt"
 paginate                = 3
@@ -30,7 +30,7 @@ disableLanguages        = []
 
   [params.meta]
    description = " Kyaw Travel and Tour "
-    author              = "HTML5UP and Hugo"
+   image ="img/logo.jpg"
     favicon             = false
     svg                 = true
     faviconVersion      = "1"
@@ -59,7 +59,7 @@ disableLanguages        = []
       alt                 = ""
 
   [params.sidebar]
-    about               = "I m one of the members of LGBTIQ in Myanmar. I do guide for Gay tourists all over the world to get to know about the LGBTIQ in Myanmar. Instead of I m gay"
+    about               = "I m a friendly, funny, kind, enthusiastic tour guide in Myanmar."
     postAmount          = 5
     categories          = true
     categoriesByCount   = true
@@ -129,7 +129,7 @@ disableLanguages        = []
       width               = ""
       alt                 = ""
     [Languages.de.params.sidebar]
-    about               = "Ich bin eines der Mitglieder von LGBTIQ in Myanmar. Ich führe schwule Touristen auf der ganzen Welt an, um mehr über den LGBTIQ in Myanmar zu erfahren. Anstatt ich bin schwul"
+    about               = "I m a friendly, funny, kind, enthusiastic tour guide in Myanmar."
     postAmount          = 5
     categories          = true
     categoriesByCount   = true
