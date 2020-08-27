@@ -12,6 +12,8 @@
     <link rel="shortcut icon" href="{{ "favicon/favicon.ico" | relURL}}{{ with .Site.Params.meta.faviconVersion }}?v={{ . }}{{ end }}">
     <meta name="msapplication-config" content="{{ "favicon/browserconfig.xml" | relURL}}{{ with .Site.Params.meta.faviconVersion }}?v={{ . }}{{ end }}">
   {{ end }}
+  {{ with .Params.Image }}
+        <meta property="og:image" content="{{ . | absURL }}" />
   <meta name="msapplication-TileColor" content="{{ .Site.Params.meta.msColor }}">
   <meta name="theme-color" content="{{ .Site.Params.meta.iOSColor }}">
 {{ end }}
