@@ -30,7 +30,7 @@ disableLanguages        = []
 
   [params.meta]
    description = " Kyaw Travel and Tour "
-   image ="img/logo.jpg"
+   image ="/img/logo.jpg"
     favicon             = false
     svg                 = true
     faviconVersion      = "1"
