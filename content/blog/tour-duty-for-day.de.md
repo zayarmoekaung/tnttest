@@ -1,6 +1,6 @@
 +++
-title: "Tour Duty for Day"
-date: 2020-09-09T14:44:06+06:30
+title= "Tour Duty for Day"
+date= 2020-09-09T14:44:06+06:30
 tags  = ["Yangon"]
 [[images]]
   src  = "/img/ytd1.jpg"

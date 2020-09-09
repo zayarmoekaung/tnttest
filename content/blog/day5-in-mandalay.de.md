@@ -1,6 +1,6 @@
 +++
-title: "Day5 in Mandalay"
-date: 2020-09-09T14:28:59+06:30
+title= "Day5 in Mandalay"
+date= 2020-09-09T14:28:59+06:30
 tags  = ["Mandalay"]
 [[images]]
   src  = "/img/mdy1.jpg"
