@@ -129,7 +129,7 @@ disableLanguages        = []
       width               = ""
       alt                 = ""
     [Languages.de.params.sidebar]
-    about               = "I m a friendly, funny, kind, enthusiastic tour guide in Myanmar."
+    about               = "Ich bin eine freundliche, lustige, freundliche und begeisterte Reiseleiterin in Myanmar."
     postAmount          = 5
     categories          = true
     categoriesByCount   = true
