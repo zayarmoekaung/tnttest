@@ -1,6 +1,6 @@
 +++
-title: ""
-date: 2020-10-02T12:07:01+06:30
+title= ""
+date= 2020-10-02T12:07:01+06:30
 [[images]]
   src  = "/img/bp9-1.jpg"
   alt  = "Travel photo"
