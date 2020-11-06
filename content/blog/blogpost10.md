@@ -10,3 +10,4 @@ date= 2020-10-05T16:59:20+06:30
 A great, warm welcome in Myanmar and a wonderful bouquet of orchids, Thank you Maximilian Mäxchen 😘
 <!--more-->
 {{< pimg src ="/img/bg10-2.jpg">}}
+{{< pimg src ="/img/bg10-1.jpg">}}
