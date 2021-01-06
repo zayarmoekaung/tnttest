@@ -1,6 +1,6 @@
 +++
 title= ""
-date: 2020-12-22T16:10:05+06:30
+date= 2020-12-22T16:10:05+06:30
 tags  = ["Yangon"]
 [[images]]
   src  = "/img/bp15-1.jpg"
